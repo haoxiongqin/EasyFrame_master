@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">jFrame</string>
+    <string name="jloading_dialog_message">正在加载中</string>
+    <string name="jloading_no_network_text">无网络连接，请检查你的网络</string>
+    <string name="jloading_error_text">加载失败，请稍后再试</string>
+    <string name="jloading_empty_text">暂无数据</string>
+    <string name="jloading_retry_text">点击重试</string>
+</resources>

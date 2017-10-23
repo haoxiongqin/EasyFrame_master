@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EasyFrame-master</string>
+    <string name="simple_view_behavior">com.wujing.easyframe.utils.SimpleViewBehavior</string>
+    <string name="translate_up_down_behavior">com.wujing.easyframe.utils.TranslateUpDownBehavior</string>
+</resources>

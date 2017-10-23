@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="JFrame_spacing_small">8dp</dimen>
+    <dimen name="JFrame_spacing">10dp</dimen>
+    <dimen name="JFrame_spacing_large">16dp</dimen>
+
+    <dimen name="JFrame_text_size_small">13sp</dimen>
+    <dimen name="JFrame_text_size">15sp</dimen>
+
+    <dimen name="JFrame_adapter_icon_size">24dp</dimen>
+    <dimen name="JFrame_progressbar_size">24dp</dimen>
+    <dimen name="JFrame_radius">6dp</dimen>
+</resources>
