@@ -34,17 +34,16 @@ dependencies {
     compile project(':jframe')
     compile 'com.android.support:appcompat-v7:+'
     compile 'com.android.support:design:+'
-    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:support-v4:+'
     compile 'com.alibaba:fastjson:1.1.57.android'
     compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile 'com.lzy.widget:imagepicker:0.5.0'
     compile 'com.github.bumptech.glide:glide:3.6.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-//    compile files('libs/httpmime-4.3.6.jar')
-//    compile files('libs/httpcore-4.3.2.jar')
     //四种常用网络请求框架，由你定制
     compile 'com.loopj.android:android-async-http:1.4.8'
     compile 'com.squareup.okhttp3:okhttp:3.8.0'
     compile 'org.xutils:xutils:3.5.0'
     compile 'com.android.volley:volley:1.0.0'
+    compile files('libs/httpmime-4.3.6.jar')
+    compile files('libs/httpcore-4.3.2.jar')
 }

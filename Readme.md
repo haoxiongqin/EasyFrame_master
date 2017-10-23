@@ -31,7 +31,7 @@
 Gradle 
 ```groovy
 dependencies{
-    compile 'com.wujing.jframe:jframe:1.1.0'
+    compile 'com.wujing.jframe:jframe:1.1.1'
 }
 ```
 或者引用本地lib

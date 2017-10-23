@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import com.wujing.easyframe.base.BaseActivity;
 import com.wujing.easyframe.ui.CacheFragment;
-import com.wujing.easyframe.ui.LimitsFragment;
+import com.wujing.easyframe.ui.StatusManageFragment;
 import com.wujing.easyframe.ui.OnlineFragment;
 import com.wujing.easyframe.ui.PrinterFragment;
 import com.wujing.easyframe.ui.ToolFragment;
@@ -51,7 +51,7 @@ public class MainActivity extends BaseActivity {
         items.add(new Pair<String, Fragment>("缓存", new CacheFragment()));
         items.add(new Pair<String, Fragment>("网络", new OnlineFragment()));
         items.add(new Pair<String, Fragment>("日志", new PrinterFragment()));
-        items.add(new Pair<String, Fragment>("状态", new LimitsFragment()));
+        items.add(new Pair<String, Fragment>("状态", new StatusManageFragment()));
         viewPager.setAdapter(new MainAdapter(getSupportFragmentManager()));
         tab.setupWithViewPager(viewPager);
         fab.setOnClickListener(new View.OnClickListener() {

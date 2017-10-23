@@ -20,6 +20,5 @@ public class MainAdapter  extends BaseQuickAdapter<Publicity> {
     @Override
     protected void bindData(JViewHolder holder, Publicity data, int position) {
         holder.setText(R.id.title,data.getTitle());
-        holder.setText(R.id.des,data.getContent());
     }
 }

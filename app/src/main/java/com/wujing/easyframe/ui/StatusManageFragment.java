@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class PrinterFragment extends BaseFragment {
+public class StatusManageFragment extends BaseFragment {
     RecyclerView recyclerView;
     MainAdapter adapter;
     List<Publicity> lists;
@@ -39,31 +39,25 @@ public class PrinterFragment extends BaseFragment {
             @Override
             public void onItemClick(View v, int position) {
                 if (position == 0) {
-                    startActivity(new Intent(getActivity(), WebActivity.class).putExtra("url", "https://github.com/haoxiongqin/EasyFrame_master/blob/master/jframe/src/main/java/com/wujing/jframe/utils/log/JLog.java")
-                            .putExtra("title", "JLog"));
+                    startActivity(new Intent(getActivity(), WebActivity.class).putExtra("url", "https://github.com/haoxiongqin/EasyFrame_master/blob/master/jframe/src/main/java/com/wujing/jframe/widget/loadingview/JLoadingView.java")
+                            .putExtra("title", "JLoadingView"));
                 } else if (position == 1) {
-                    startActivity(new Intent(getActivity(), WebActivity.class).putExtra("url", "https://github.com/haoxiongqin/EasyFrame_master/blob/master/jframe/src/main/java/com/wujing/jframe/utils/log/JLogConfig.java")
-                            .putExtra("title", "JLogConfig"));
+                    startActivity(new Intent(getActivity(), WebActivity.class).putExtra("url", "https://github.com/haoxiongqin/EasyFrame_master/blob/master/jframe/src/main/java/com/wujing/jframe/widget/loadingview/JLoadingViewConfig.java")
+                            .putExtra("title", "JLoadingViewConfig"));
                 } else if (position == 2) {
-                    startActivity(new Intent(getActivity(), WebActivity.class).putExtra("url", "https://github.com/haoxiongqin/EasyFrame_master/blob/master/jframe/src/main/java/com/wujing/jframe/utils/log/LoggerPrinter.java")
-                            .putExtra("title", "LoggerPrinter"));
-                }else if (position == 3) {
-                    startActivity(new Intent(getActivity(), WebActivity.class).putExtra("url", "https://github.com/haoxiongqin/EasyFrame_master/blob/master/jframe/src/main/java/com/wujing/jframe/utils/log/Printer.java")
-                            .putExtra("title", "Printer"));
+                    startActivity(new Intent(getActivity(), WebActivity.class).putExtra("url", "https://github.com/haoxiongqin/EasyFrame_master/blob/master/jframe/src/main/java/com/wujing/jframe/widget/JLoadingDialog.java")
+                            .putExtra("title", "JLoadingDialog"));
                 }
             }
         });
     }
-
     @Override
     public void initData() {
-
     }
     public void setData(){
         lists=new ArrayList<>();
-        lists.add(new Publicity("JLog"));
-        lists.add(new Publicity("JLogConfig"));
-        lists.add(new Publicity("LoggerPrinter"));
-        lists.add(new Publicity("Printer"));
+        lists.add(new Publicity("JLoadingView"));
+        lists.add(new Publicity("JLoadingViewConfig"));
+        lists.add(new Publicity("JLoadingDialog"));
     }
 }
