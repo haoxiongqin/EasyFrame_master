@@ -31,7 +31,7 @@
 Gradle 
 ```groovy
 dependencies{
-    compile 'com.wujing.jframe:jframe:1.1.1'
+    compile 'com.wujing.jframe:jframe:1.1.2'
 }
 ```
 或者引用本地lib
@@ -43,9 +43,14 @@ compile project(':jframe')
 
 ## 更新说明
 
+#### v1.1.2
+   JFrame 优化更新
+ * 修改优化了一些bug
+
+
+
 #### v1.1.1
    JFrame 优化更新
- * 增加Http网络隔离框架
  * 增加BaseQuickAdapter加载的6大动画实现,以及自己自定义动画
  * 修改优化了一些bug
 
