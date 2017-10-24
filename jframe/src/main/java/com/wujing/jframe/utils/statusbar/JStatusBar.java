@@ -21,8 +21,8 @@ import com.wujing.jframe.R;
 
 public class JStatusBar {
     public static final int DEFAULT_STATUS_BAR_ALPHA = 112;
-    public static final int FAKE_STATUS_BAR_VIEW_ID = R.id.xstatusbar_fake_status_bar_view;
-    public static final int FAKE_TRANSLUCENT_VIEW_ID = R.id.xstatusbar_translucent_view;
+    public static final int FAKE_STATUS_BAR_VIEW_ID = R.id.jstatusbar_fake_status_bar_view;
+    public static final int FAKE_TRANSLUCENT_VIEW_ID = R.id.jstatusbar_translucent_view;
 
     /**
      * 设置状态栏颜色

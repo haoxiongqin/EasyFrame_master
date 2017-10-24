@@ -11,7 +11,7 @@
         <item name="android:backgroundDimAmount">0.4</item>
     </style>
 
-    <style name="xloading_padding_style">
+    <style name="jloading_padding_style">
         <item name="android:paddingTop">@dimen/JFrame_spacing</item>
         <item name="android:paddingBottom">@dimen/JFrame_spacing</item>
         <item name="android:paddingLeft">@dimen/JFrame_spacing_large</item>

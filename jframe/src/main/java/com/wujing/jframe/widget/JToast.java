@@ -158,8 +158,8 @@ public class JToast {
     public static Toast custom( @NonNull String message, Drawable icon,
                                             @ColorInt int textColor, @ColorInt int tintColor, int duration) {
         View toastLayout = LayoutInflater.from(context).inflate(R.layout.jtoast_view, null);
-        ImageView toastIcon = (ImageView) toastLayout.findViewById(R.id.xtoast_icon);
-        TextView toastText = (TextView) toastLayout.findViewById(R.id.xtoast_text);
+        ImageView toastIcon = (ImageView) toastLayout.findViewById(R.id.jtoast_icon);
+        TextView toastText = (TextView) toastLayout.findViewById(R.id.jtoast_text);
 
         Drawable drawableFrame= JOutMethodUtils.getDrawable(R.drawable.jtoast_frame);
         drawableFrame.setColorFilter(new PorterDuffColorFilter(tintColor, PorterDuff.Mode.SRC_IN));

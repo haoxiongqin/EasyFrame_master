@@ -123,7 +123,7 @@ public class JLoadingView extends FrameLayout {
         addView(view);
         mResId.put(resId, view);
         if (resId == mErrorViewResId||resId == mNoNetworkViewResId) {
-            View v=view.findViewById(R.id.xloading_retry);
+            View v=view.findViewById(R.id.jloading_retry);
             if (mOnRetryClickListener != null) {
                 if (v != null)
                     v.setOnClickListener(mOnRetryClickListener);

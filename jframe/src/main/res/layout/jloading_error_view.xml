@@ -16,12 +16,12 @@
         android:textColor="@color/JFrame_text_gray"
         android:textSize="@dimen/JFrame_text_size" />
     <TextView
-        android:id="@id/xloading_retry"
+        android:id="@id/jloading_retry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/jloading_retry_text"
         android:textColor="@color/JFrame_text_gray"
         android:textSize="@dimen/JFrame_text_size"
         android:background="@drawable/jloading_btn_selector"
-        style="@style/xloading_padding_style" />
+        style="@style/jloading_padding_style" />
 </LinearLayout>
